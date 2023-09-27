@@ -1,25 +1,3 @@
-the article for basic introduction here:
-https://umangshrestha09.medium.com/create-your-own-system-monitoring-tool-in-linux-b860e480b151</br>
-
-
-# package main
-
-type Bytes struct {
-	Tx uint64
-	Rx uint64
-}
-
-type MemKB struct {
-	MemTotal uint64
-	MemFree  uint64
-	MemUsed uint64
-	SwapTotal uint64
-	SwapFree uint64
-	SwapUsed uint64
-	Shared uint64
-	Cache uint64
-}
-
 # functions
 func GetCurrentCpu(r chan float64); <br />
 func GetProcs()  int; <br />
